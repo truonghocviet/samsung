@@ -1,0 +1,64 @@
+.required{
+	color: red;
+}
+.title-2{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.sidebar .nav .nav-item.active > .nav-link .menu-title, .sidebar .nav .nav-item.active > .nav-link i,.sidebar .nav.sub-menu .nav-item .nav-link.active,.navbar .navbar-menu-wrapper .dropdown .dropdown-toggle:after{
+	color: #182ba2;
+}
+.sidebar .nav .nav-item .nav-link i.menu-icon{
+	color: #A0A8D9;
+}
+.navbar.default-layout-navbar .navbar-brand-wrapper .navbar-brand img{
+	height: 62px;
+	margin-top:-10px;
+}
+.form-control {
+	border: 1px solid #adaeb1;
+	font-family: "ubuntu-regular", sans-serif;
+	font-size: 0.8125rem;
+}
+.iconlist{
+	padding: 5px 10px;
+	border-radius: 2px; 
+}
+.success{
+	color:#fff ; 
+	background: #1bcfb4;
+}
+.danger{
+	color:#fff ; 
+	background: #fe7c96;
+}
+select.form-control {
+	padding: .4375rem .75rem;
+	border: 0;
+	outline: 1px solid #adaeb1;
+	color: #c9c8c8;
+}
+@media (max-width: 991px){
+	.navbar.default-layout-navbar .navbar-brand-wrapper {
+		width: 140px;
+	}
+	.navbar.default-layout-navbar .navbar-brand-wrapper .navbar-brand img{
+		width: 100%;
+	}
+}
+
+/* Bản Deltail */
+.table-detail{
+	border: 1px solid black;
+}
+.table-detail .tr-detail{
+	border-bottom: 1px solid black;
+}
+.table-detail .tr-detail td{
+	border: none;
+	width: 50%;
+	vertical-align: top;
+}
+.table-detail .tr-detail td:first-child{
+	border-right: 1px solid black;
+}
